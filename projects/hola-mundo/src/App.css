@@ -1,19 +1,9 @@
 
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Altura completa de la ventana */
-}
 
 .tw-followCard {
 
    display: flex;
+   justify-content: space-between;
    align-items: center;
    color: #141313;
    font-size: .8rem;
@@ -47,4 +37,14 @@ body, html {
     padding: 6px 16px;
     font-weight: bold;
     cursor:pointer ;
+ }
+
+ .tw-followCard-button.isFollowing {
+border: 1px solid red;
+background-color: red;
+color: #aca6a6;
+}
+
+ .tw-followCard-button:hover {
+   background-color: #aca6a6;
  }
