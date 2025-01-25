@@ -13,7 +13,6 @@ export function TwFolloCard ({ isFollowing, name, userName, formatFunction}) {
 
     const handleClick = () => {
         setInitFollowing (!initIsFollowing)
-        console.log (initIsFollowing)
     } 
     
     return (
